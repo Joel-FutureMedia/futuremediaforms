@@ -59,8 +59,8 @@ public class SecurityConfig {
     CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowedOrigins(List.of(
-                "https://futuremedia.simplyfound.com.na",
-                "https://futuremedia.simplyfound",
+                "https://futureclients.simplyfound.com.na",
+                "futureclients.simplyfound.com.na",
                 "https://localhost:8080"
         ));
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"));
